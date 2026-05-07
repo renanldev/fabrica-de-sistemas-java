@@ -1,18 +1,48 @@
-## Getting Started
+<h1>Abstract Factory em Java</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p>
+Projeto simples em Java utilizando o padrão de projeto Abstract Factory.
+</p>
 
-## Folder Structure
+<p>
+O sistema cria componentes gráficos diferentes para Windows e Linux, como:
+</p>
 
-The workspace contains two folders by default, where:
+<ul>
+  <li>Botão</li>
+  <li>Janela</li>
+</ul>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<p>
+A criação dos objetos é feita através de fábricas, evitando criar os componentes diretamente na classe principal.
+</p>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+<h2>Tecnologias</h2>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+<ul>
+  <li>Java</li>
+</ul>
 
-## Dependency Management
+<h2>Estrutura</h2>
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<ul>
+  <li>Interface Botao</li>
+  <li>Interface Janela</li>
+  <li>Classes Windows e Linux</li>
+  <li>Fábricas para cada sistema operacional</li>
+  <li>Classe principal Main</li>
+</ul>
+
+<h2>Como executar</h2>
+
+<p>1. Compile o arquivo:</p>
+
+<pre>
+javac Main.java
+</pre>
+
+<p>2. Execute:</p>
+
+<pre>
+java Main
+</pre>
